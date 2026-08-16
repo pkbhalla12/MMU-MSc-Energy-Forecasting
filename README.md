@@ -1,5 +1,5 @@
 ﻿# UK Electricity Demand Forecasting
-### MSc Data Science Dissertation — Manchester Metropolitan University 2026
+### MSc Data Science Dissertation - Manchester Metropolitan University 2026
 
 ## Overview
 This project implements and compares five forecasting approaches for UK national electricity demand using 15 years of half-hourly settlement period data (2009-2024). MSc Data Science dissertation at Manchester Metropolitan University, supervised by Dr Philip Sinclair.
@@ -28,17 +28,17 @@ UK National Electricity Consumption 2009-2024 (Vidalrod, 2024)
 - Note: Raw data not included in repo due to size. Download and place historic_demand_2009_2024.csv in project root.
 
 ## Project Structure
-- Project.ipynb — Main analysis notebook (preprocessing, all models, evaluation)
-- dashboard.py — Interactive Streamlit dashboard
-- requirements.txt — Python dependencies
-- Output/ — Saved model weights, plots, and results CSVs
+- Project.ipynb - Main analysis notebook (preprocessing, all models, evaluation)
+- dashboard.py - Interactive Streamlit dashboard
+- requirements.txt - Python dependencies
+- Output/ - Saved model weights, plots, and results CSVs
 
 ## Models
-- ARIMA(7,1,1) — statistical baseline on daily data
-- XGBoost — gradient boosted trees with 16 lag and temporal features, tuned via RandomizedSearchCV
-- LSTM — 2-layer PyTorch network, look-back 48 periods, early stopping
-- GRU — 2-layer PyTorch network, look-back 48 periods, early stopping
-- Hybrid ARIMA+XGBoost — ARIMA trend + XGBoost residual correction
+- ARIMA(7,1,1) - statistical baseline on daily data
+- XGBoost - gradient boosted trees with 16 lag and temporal features, tuned via RandomizedSearchCV
+- LSTM - 2-layer PyTorch network, look-back 48 periods, early stopping
+- GRU - 2-layer PyTorch network, look-back 48 periods, early stopping
+- Hybrid ARIMA+XGBoost - ARIMA trend + XGBoost residual correction
 
 ## Installation
 1. Clone the repo
