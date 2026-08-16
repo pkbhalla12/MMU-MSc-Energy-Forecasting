@@ -1,0 +1,23 @@
+﻿# Raw data (download from Kaggle - not redistributable)
+data/raw/
+*.feather
+*.csv.zip
+
+# CSV data files in root (too large for GitHub)
+historic_demand_2009_2024.csv
+historic_demand_2009_2024_noNaN.csv
+historic_demand_year_*.csv
+train.csv
+test.csv
+model_results.csv
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+
+# Large files
+*.zip
